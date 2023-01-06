@@ -1,0 +1,235 @@
+ALL ABOUT PING:
+
+
+┌──(subhro1530㉿kali)-[~]
+└─$ ifconfig    
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe68:e127  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:68:e1:27  txqueuelen 1000  (Ethernet)
+        RX packets 3  bytes 1240 (1.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 91  bytes 8902 (8.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping google.com 
+PING google.com (142.250.205.238) 56(84) bytes of data.
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=1 ttl=111 time=2378 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=2 ttl=111 time=3050 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=3 ttl=111 time=3305 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=13 ttl=111 time=4669 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=14 ttl=111 time=3647 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=15 ttl=111 time=2620 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=16 ttl=111 time=1594 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=17 ttl=111 time=563 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=18 ttl=111 time=1056 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=19 ttl=111 time=496 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=20 ttl=111 time=304 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=21 ttl=111 time=260 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=22 ttl=111 time=793 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=23 ttl=111 time=463 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=24 ttl=111 time=484 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=25 ttl=111 time=134 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=26 ttl=111 time=258 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=27 ttl=111 time=632 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=28 ttl=111 time=111 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=29 ttl=111 time=2417 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=30 ttl=111 time=1388 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=31 ttl=111 time=608 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=32 ttl=111 time=496 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=33 ttl=111 time=272 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=34 ttl=111 time=662 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=35 ttl=111 time=87.8 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=36 ttl=111 time=229 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=37 ttl=111 time=105 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=38 ttl=111 time=117 ms
+^C
+--- google.com ping statistics ---
+38 packets transmitted, 29 received, 23.6842% packet loss, time 42411ms
+rtt min/avg/max/mdev = 87.841/1144.764/4669.293/1242.582 ms, pipe 5
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 142.250.205.238          
+PING 142.250.205.238 (142.250.205.238) 56(84) bytes of data.
+64 bytes from 142.250.205.238: icmp_seq=1 ttl=111 time=92.6 ms
+64 bytes from 142.250.205.238: icmp_seq=2 ttl=111 time=175 ms
+64 bytes from 142.250.205.238: icmp_seq=3 ttl=111 time=73.2 ms
+64 bytes from 142.250.205.238: icmp_seq=4 ttl=111 time=115 ms
+64 bytes from 142.250.205.238: icmp_seq=5 ttl=111 time=154 ms
+64 bytes from 142.250.205.238: icmp_seq=6 ttl=111 time=82.9 ms
+64 bytes from 142.250.205.238: icmp_seq=7 ttl=111 time=83.1 ms
+64 bytes from 142.250.205.238: icmp_seq=8 ttl=111 time=74.3 ms
+^C
+--- 142.250.205.238 ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7066ms
+rtt min/avg/max/mdev = 73.225/106.310/175.302/36.230 ms
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 10.81.156.167  
+PING 10.81.156.167 (10.81.156.167) 56(84) bytes of data.
+64 bytes from 10.81.156.167: icmp_seq=1 ttl=63 time=87.0 ms
+64 bytes from 10.81.156.167: icmp_seq=2 ttl=63 time=3.06 ms
+64 bytes from 10.81.156.167: icmp_seq=3 ttl=63 time=3.67 ms
+64 bytes from 10.81.156.167: icmp_seq=4 ttl=63 time=3.73 ms
+64 bytes from 10.81.156.167: icmp_seq=5 ttl=63 time=130 ms
+64 bytes from 10.81.156.167: icmp_seq=6 ttl=63 time=3.51 ms
+64 bytes from 10.81.156.167: icmp_seq=7 ttl=63 time=4.16 ms
+64 bytes from 10.81.156.167: icmp_seq=8 ttl=63 time=3.73 ms
+64 bytes from 10.81.156.167: icmp_seq=9 ttl=63 time=6.12 ms
+64 bytes from 10.81.156.167: icmp_seq=10 ttl=63 time=3.69 ms
+64 bytes from 10.81.156.167: icmp_seq=11 ttl=63 time=4.11 ms
+64 bytes from 10.81.156.167: icmp_seq=12 ttl=63 time=3.22 ms
+64 bytes from 10.81.156.167: icmp_seq=13 ttl=63 time=3.12 ms
+64 bytes from 10.81.156.167: icmp_seq=14 ttl=63 time=78.1 ms
+64 bytes from 10.81.156.167: icmp_seq=15 ttl=63 time=3.35 ms
+64 bytes from 10.81.156.167: icmp_seq=16 ttl=63 time=4.15 ms
+64 bytes from 10.81.156.167: icmp_seq=17 ttl=63 time=5.98 ms
+64 bytes from 10.81.156.167: icmp_seq=18 ttl=63 time=11.8 ms
+64 bytes from 10.81.156.167: icmp_seq=19 ttl=63 time=3.20 ms
+64 bytes from 10.81.156.167: icmp_seq=20 ttl=63 time=5.37 ms
+^C
+--- 10.81.156.167 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19067ms
+rtt min/avg/max/mdev = 3.062/18.541/129.763/34.668 ms
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 10.81.71.106 
+PING 10.81.71.106 (10.81.71.106) 56(84) bytes of data.
+^C
+--- 10.81.71.106 ping statistics ---
+192 packets transmitted, 0 received, 100% packet loss, time 195599ms
+
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 10.81.71.106
+PING 10.81.71.106 (10.81.71.106) 56(84) bytes of data.
+
+
+
+^C
+--- 10.81.71.106 ping statistics ---
+21 packets transmitted, 0 received, 100% packet loss, time 20473ms
+
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 10.81.71.106
+PING 10.81.71.106 (10.81.71.106) 56(84) bytes of data.
+^C
+--- 10.81.71.106 ping statistics ---
+72 packets transmitted, 0 received, 100% packet loss, time 72672ms
+
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping youtube.com 
+PING youtube.com (142.250.77.142) 56(84) bytes of data.
+64 bytes from maa05s16-in-f14.1e100.net (142.250.77.142): icmp_seq=1 ttl=47 time=124 ms
+64 bytes from maa05s16-in-f14.1e100.net (142.250.77.142): icmp_seq=2 ttl=47 time=113 ms
+64 bytes from maa05s16-in-f14.1e100.net (142.250.77.142): icmp_seq=3 ttl=47 time=460 ms
+^C
+--- youtube.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 112.622/232.208/459.688/160.923 ms
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe68:e127  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:68:e1:27  txqueuelen 1000  (Ethernet)
+        RX packets 11925  bytes 9359265 (8.9 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8927  bytes 1679331 (1.6 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2  bytes 100 (100.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2  bytes 100 (100.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping 10.0.2.15   
+PING 10.0.2.15 (10.0.2.15) 56(84) bytes of data.
+64 bytes from 10.0.2.15: icmp_seq=1 ttl=64 time=0.023 ms
+64 bytes from 10.0.2.15: icmp_seq=2 ttl=64 time=0.032 ms
+64 bytes from 10.0.2.15: icmp_seq=3 ttl=64 time=0.050 ms
+64 bytes from 10.0.2.15: icmp_seq=4 ttl=64 time=0.050 ms
+64 bytes from 10.0.2.15: icmp_seq=5 ttl=64 time=0.051 ms
+64 bytes from 10.0.2.15: icmp_seq=6 ttl=64 time=0.026 ms
+64 bytes from 10.0.2.15: icmp_seq=7 ttl=64 time=0.025 ms
+64 bytes from 10.0.2.15: icmp_seq=8 ttl=64 time=0.044 ms
+64 bytes from 10.0.2.15: icmp_seq=9 ttl=64 time=0.032 ms
+64 bytes from 10.0.2.15: icmp_seq=10 ttl=64 time=0.034 ms
+64 bytes from 10.0.2.15: icmp_seq=11 ttl=64 time=0.033 ms
+64 bytes from 10.0.2.15: icmp_seq=12 ttl=64 time=0.044 ms
+^C
+--- 10.0.2.15 ping statistics ---
+12 packets transmitted, 12 received, 0% packet loss, time 11263ms
+rtt min/avg/max/mdev = 0.023/0.037/0.051/0.009 ms
+                                                                                                                                                                                                                                            
+┌──(subhro1530㉿kali)-[~]
+└─$ ping google.com -c 44
+PING google.com (142.250.205.238) 56(84) bytes of data.
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=1 ttl=111 time=82.1 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=2 ttl=111 time=76.0 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=3 ttl=111 time=79.7 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=4 ttl=111 time=76.7 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=5 ttl=111 time=85.0 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=6 ttl=111 time=141 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=7 ttl=111 time=144 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=8 ttl=111 time=81.8 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=9 ttl=111 time=67.2 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=10 ttl=111 time=69.6 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=11 ttl=111 time=201 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=12 ttl=111 time=182 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=13 ttl=111 time=83.7 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=14 ttl=111 time=116 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=15 ttl=111 time=82.8 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=16 ttl=111 time=74.4 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=17 ttl=111 time=93.4 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=18 ttl=111 time=87.6 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=19 ttl=111 time=97.8 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=20 ttl=111 time=140 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=21 ttl=111 time=145 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=22 ttl=111 time=77.1 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=23 ttl=111 time=283 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=24 ttl=111 time=73.5 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=25 ttl=111 time=247 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=26 ttl=111 time=74.7 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=27 ttl=111 time=72.5 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=28 ttl=111 time=92.7 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=29 ttl=111 time=99.9 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=30 ttl=111 time=87.0 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=31 ttl=111 time=97.1 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=32 ttl=111 time=75.4 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=33 ttl=111 time=89.0 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=34 ttl=111 time=201 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=35 ttl=111 time=84.6 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=36 ttl=111 time=279 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=37 ttl=111 time=138 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=38 ttl=111 time=1338 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=39 ttl=111 time=989 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=40 ttl=111 time=1353 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=41 ttl=111 time=1838 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=42 ttl=111 time=1233 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=43 ttl=111 time=835 ms
+64 bytes from maa05s28-in-f14.1e100.net (142.250.205.238): icmp_seq=44 ttl=111 time=2114 ms
+
+--- google.com ping statistics ---
+44 packets transmitted, 44 received, 0% packet loss, time 43098ms
+rtt min/avg/max/mdev = 67.205/317.647/2113.807/496.381 ms, pipe 2

